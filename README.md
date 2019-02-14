@@ -10,8 +10,8 @@
      ```typescript
         import Vue from 'vue';
         import VuePnP from 'vue-pnpjs';
+
         import { sp } from '@pnp/sp';
-        
         import { graph } from '@pnp/graph';
         import { setup } from '@pnp/common';
 
