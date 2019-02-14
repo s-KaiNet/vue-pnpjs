@@ -3,8 +3,8 @@ import { SPRest } from '@pnp/sp';
 import { GraphRest } from '@pnp/graph';
 
 export declare interface PnPVueParam {
-    sp?: typeof SPRest;
-    graph?: typeof GraphRest;
+    sp?: SPRest;
+    graph?: GraphRest;
 }
 
 declare module 'vue/types/vue' {
