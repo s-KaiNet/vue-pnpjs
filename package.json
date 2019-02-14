@@ -1,0 +1,41 @@
+{
+  "name": "vue-pnpjs",
+  "version": "0.0.2",
+  "description": "Provides integration between Vue.js and PnP.js",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-KaiNet/vue-pnpjs.git"
+  },
+  "keywords": [
+    "PnPjs",
+    "vuejs"
+  ],
+  "author": "Sergei Sergeev <sergeev.srg@gmail.com> (https://github.com/s-KaiNet)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-KaiNet/vue-pnpjs/issues"
+  },
+  "homepage": "https://github.com/s-KaiNet/vue-pnpjs#readme",
+  "peerDependencies": {
+    "vue": ">= 2.0.0"
+  },
+  "devDependencies": {
+    "@pnp/common": "^1.2.9",
+    "@pnp/graph": "^1.2.9",
+    "@pnp/logging": "^1.2.9",
+    "@pnp/odata": "^1.2.9",
+    "@pnp/sp": "^1.2.9",
+    "@types/node": "^11.9.3",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3",
+    "vue": "^2.6.6"
+  },
+  "dependencies": {}
+}
